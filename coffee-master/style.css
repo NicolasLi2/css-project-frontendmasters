@@ -106,11 +106,17 @@ header h1 {
   background-size: 100% 35%;
   background-position: 0 90%;
 }
+.colors {
+  display: flex;
+}
 .colors > * {
   width: 5rem;
   height: 4rem;
-  display: inline-block;
-  text-align: center;
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
   padding: 1rem 0;
   margin: 1rem;
   border: 1px solid var(--coffee);
@@ -118,6 +124,7 @@ header h1 {
 .white {
   background-color: var(--white);
 }
+
 .green {
   background-color: var(--green);
   color: var(--vanilla);
